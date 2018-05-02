@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <div>
         <Logo />
-        <SearchBar />
+        <SearchBar /> 
         <RecentPosts />
       </div>
     );
