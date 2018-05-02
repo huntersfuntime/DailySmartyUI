@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const RecentPosts = () => {
+import { connect } from 'react-redux';
+
+import * as actions from '../actions';
+
+class RecentPosts extends Component {
+
+    componentDidMount() {
+        this.props.fetchRecentPosts()
+    }
+
+    render() {
     return(
         <div className="recent-posts">
             <div className="recent-posts__wrapper">
@@ -13,6 +23,7 @@ const RecentPosts = () => {
             </div>
         </div>
     )
+  }
 }
 
-export default RecentPosts;
+export default connect(null, actions)(RecentPosts);
