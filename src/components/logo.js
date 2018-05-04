@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 const Logo = (props) => {
     const size = {
@@ -7,7 +7,9 @@ const Logo = (props) => {
     }
         return (
             <div className="logo-main">
-                <img style={size} src="/assets/ds_circle_logo.png" alt="daily smarty logo big" />
+                <Link to="/">
+                    <img style={size} src="/assets/ds_circle_logo.png" alt="daily smarty logo big" />
+                </Link>
             </div>
         )
 }
