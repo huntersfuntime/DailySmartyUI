@@ -1,7 +1,7 @@
 $color-primary: orange;
 
 .recent-posts {
-
+     cursor: pointer;
     .recent-posts__wrapper {
         display: grid; 
         grid-row-gap: 21px; 
@@ -19,3 +19,4 @@ $color-primary: orange;
         }
     }
 }
+

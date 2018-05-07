@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 @import './searchBar';
 @import './recentPosts';
+@import './post';
 
 
 $color-gray-one: #666666;
 
-.post-topic {
-    margin: 0 4px;
-}
+
 
 body {
     font-family: 'Lato', sans-serif;
