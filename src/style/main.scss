@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 @import './searchBar';
+@import './recentPosts';
 
 
 $color-gray-one: #666666;
@@ -23,7 +24,7 @@ body {
 
     display: grid;
     align-content: space-around;
-    justify-items: stretch;
+  
     // grid-template-rows: 1fr 2fr 1fr;
    
 }
@@ -34,4 +35,11 @@ body {
     justify-items: center;
    
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 

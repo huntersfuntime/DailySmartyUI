@@ -1,0 +1,21 @@
+$color-primary: orange;
+
+.recent-posts {
+
+    .recent-posts__wrapper {
+        display: grid; 
+        grid-row-gap: 21px; 
+        width: 100%;
+
+        .recent-posts__heading {
+            color: $color-primary;
+            font-size: 14px;
+        }
+        .recent-posts__posts {
+            display: grid;
+            justify-content: space-evenly;
+            grid-gap: 42px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
