@@ -1,3 +1,42 @@
 .results {
     @include default-page-layout();
+    margin-top: 52px;
+    grid-row-gap: 44px;
+}
+
+
+.results-posts {
+  
+
+    .results-posts__wrapper {
+
+        .results-posts__posts {
+            display: grid;
+            grid-row-gap: 21px;
+            justify-content: stretch;
+        }
+    }
+}
+
+.result-post {
+    display: grid;
+    align-content: space-around;
+    grid-row-gap: 22px;
+
+    &__topics > * {
+        color: $color-blue-one;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: normal;
+    }
+
+    &__title {
+        color: $color-gray-one;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    &__links a {
+        
+    }
 }
