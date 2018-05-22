@@ -1,5 +1,4 @@
 
-
 .recent-posts {
      cursor: pointer;
     .recent-posts__wrapper {
@@ -15,7 +14,10 @@
             display: grid;
             justify-content: space-evenly;
             grid-gap: 42px;
-            grid-template-columns: 1fr 1fr 1fr;
+            
+            @media screen and (min-width: 700px) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
         }
     }
 }
